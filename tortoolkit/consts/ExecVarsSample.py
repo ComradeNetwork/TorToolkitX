@@ -6,20 +6,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
 
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "cd43ddc9aa4d23dd595d7ee7fb91f936"
+        API_ID = 11928830
+        BOT_TOKEN = "5109905692:AAFVlPukRsp36RBlIO0ddbhjAD4CyxMUNSU"
+        BASE_URL_OF_BOT = "http://34.125.97.117"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [1722791133,5167498437,-1001621835783]
+        OWNER_ID = 5167498437
 
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://index.comradenetwork.workers.dev/0:/"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 10
@@ -37,18 +37,16 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DATABASE_URL = (
-            "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
-        )
+        #DATABASE_URL = ("dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432")
 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        # DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
 
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "bnBiXS7T"
+        MEGA_UNAME = "fodexo7189@3dmasti.com"
+        MEGA_PASS = "fodexo7189@3dmasti.com"
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
@@ -63,22 +61,22 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = "./rclone.conf"
 
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "Comrade Drive"
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 200
 
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 180
 
         # Custom Trackers for QBT..
         ADD_CUSTOM_TRACKERS = True
